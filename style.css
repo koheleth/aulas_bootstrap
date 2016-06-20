@@ -48,6 +48,14 @@
     background-color: #0ff;
 }
 .navbar-outro{
-    background-color: orange;
-    color: #fff;
+    background-color: black;
+    color: blue;
+}
+.text-justify {
+    padding: 20px;
+
+}
+.title-blue {
+    color: blue;
+    font-size: 40px;
 }
