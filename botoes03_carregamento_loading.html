@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1, firefox=1">
+        <title>Curso bootstrap 3</title>
+        <meta name="description" content="Curso bootstrap 3">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <button class="btn btn-lg btn-primary btn-loading" data-loading-text="Finalizando aguarde...">
+                    Finalizar Cadastro</button>
+            </div>
+        </div>
+        <script src="js/jquery-2.x-git.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script>
+            $(function() {
+                $('.btn-loading').on('click', function(){
+                    $btn = $(this).button('loading');
+                    setTimeout(function () {
+                        $btn.button('reset');
+                    }, 1000)
+                });
+            });
+        </script>
+    </body>
+</html>

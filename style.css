@@ -1,0 +1,53 @@
+.cor1, .cor2 {
+    padding: 28px;
+}
+.cor1 {
+    background-color: #ddd;
+}
+.cor2 {
+    background-color: #f1f1f1;
+}
+.coluna1 {
+    background-color: #09f;
+}
+.coluna2 {
+    background-color: #50f
+}
+
+.table-hover >tbody > tr:hover {
+    background-color: #0f0;
+    color: #33f;
+}
+.hidden  {
+    background-color: #ff0;
+}
+.hidden-xs {
+    background-color: #00f;
+}
+.hidden-sm {
+    background-color: #0f0;
+
+}
+.hidden-md {
+    background-color: #f00;
+}
+.hidden-lg {
+    background-color: #0ff;
+}
+.visible-xs-12 {
+    background-color: #00f;
+}
+.visible-sm-12{
+    background-color: #0f0;
+
+}
+.visible-md-12{
+    background-color: #f00;
+}
+.visible-lg-12{
+    background-color: #0ff;
+}
+.navbar-outro{
+    background-color: orange;
+    color: #fff;
+}
